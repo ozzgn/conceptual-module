@@ -1,0 +1,23 @@
+/*------------------------------------*\
+    #TYPOGRAPHY
+\*------------------------------------*/
+
+/* Font Family */
+$serif: sans-serif;
+
+h1 {
+    font-family: $serif;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    margin: 0;
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: center;
+    color: $purple;
+    transition: all .3s cubic-bezier(.77,0,.175,1);
+
+    @include lg {
+        font-size: 1.3rem;
+        margin-bottom: 0.6rem;
+    }
+}
